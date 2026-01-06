@@ -1,12 +1,317 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LEW 2026</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Labour Econometrics Workshop 2026</title>
+<meta content="Labour Econometrics Workshop 2026, hosted by The University of Western Australia in Perth." name="description"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<style>
+  section[aria-labelledby="dates"] .date-card{display:flex;flex-direction:column;gap:10px}
+  section[aria-labelledby="dates"] .date-card .kicker-row{display:flex;align-items:center;gap:10px}
+  section[aria-labelledby="dates"] .date-card .date-icon{width:18px;height:18px;flex:0 0 18px;color:currentColor}
+  section[aria-labelledby="dates"] .date-card .date-icon svg{width:18px;height:18px;display:block}
+  section[aria-labelledby="dates"] .date-card .kicker{margin:0}
+  section[aria-labelledby="dates"] .date-card .actions{margin-top:auto;display:block}
+  section[aria-labelledby="dates"] .date-card .actions .btn{display:flex;width:100%;min-height:44px;justify-content:center}
+  section[aria-labelledby="dates"] .date-card .actions .btn.disabled{justify-content:center}
+
+
+  section[aria-labelledby="keynotes"] .speaker-card-head{display:flex;align-items:center;gap:14px}
+  section[aria-labelledby="keynotes"] .speaker-photo{width:84px;height:84px;border-radius:16px;object-fit:cover;flex:0 0 auto;border:1px solid rgba(17,24,39,0.08)}
+  section[aria-labelledby="keynotes"] .speaker-card-meta .kicker{margin:0}
+  section[aria-labelledby="keynotes"] .keynote-cta{margin-top:16px;display:flex;justify-content:center}
+  section[aria-labelledby="keynotes"] .keynote-cta .btn{min-width:240px;min-height:48px;padding:12px 18px;font-weight:700;border-radius:12px;justify-content:center}
+  @media (max-width:520px){section[aria-labelledby="keynotes"] .speaker-card-head{flex-direction:column;align-items:flex-start}}
+
+</style>
 </head>
-<body style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; padding: 40px;">
-  <h1>Labour Econometrics Workshop (LEW) 2026</h1>
-  <p>Website coming online shortly.</p>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+<div class="container nav">
+<a aria-label="LEW 2026 home" class="brand-link" href="index.html">
+<span aria-hidden="true" class="brand-crest-wrap">
+<img alt="" class="brand-crest" src="assets/img/uwa-crest.png"/>
+</span>
+<div class="brand-text">
+<div class="brand-uni">LEW 2026</div>
+<div class="brand-event">University of Western Australia</div>
+</div>
+</a>
+<nav aria-label="Primary" class="navlinks">
+<a href="index.html">Home</a>
+<a href="program.html">Program</a>
+<a href="keynotes.html">Keynotes</a>
+<a href="venue.html">Venue &amp; Travel</a>
+<a href="sponsors.html">Sponsors</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+<div class="goldline"></div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="container">
+<div class="hero-head">
+<h1>Labour Econometrics Workshop 2026</h1>
+<div class="meta">
+<span class="pill">📍 Perth, The University of Western Australia</span>
+<span class="pill">🗓️ Thursday 16th – Friday 17th July 2026</span>
+<span class="pill">🕒 All times are AWST (UTC+8).</span>
+</div>
+</div>
+<div aria-label="Perth coastal image" class="hero-media">
+<img alt="Perth coastline (placeholder image)" src="assets/img/hero-perth.jpg"/>
+<div class="hero-overlay">
+<div class="note">
+            Paper submissions are now open.<br/>
+            26 January 2026 – 17 March 2026 (5:00pm AWST)
+          </div>
+<div aria-label="Primary calls to action" class="cta">
+<a class="btn primary" href="submit.html">Submit paper</a>
+<a aria-disabled="true" class="btn ghost disabled" data-disabled="true" href="register.html">Registration (TBD)</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="dates" class="section alt">
+<div class="container">
+<h2 id="dates">Important dates</h2>
+<div class="grid dates">
+<div class="card soft date-card">
+<div class="kicker-row">
+<span aria-hidden="true" class="date-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M3 11v2"></path>
+<path d="M4 10h4l11-4v12L8 14H4z"></path>
+<path d="M8 14l1.5 6a2 2 0 0 1-1.94 2H6.5a1 1 0 0 1-.97-.76L4 14"></path>
+</svg>
+</span>
+<div class="kicker">Call for papers opens</div>
+</div>
+<div class="date">26 January 2026</div>
+<div class="actions">
+<a class="btn secondary" href="#call-for-papers">Submission details</a>
+</div>
+</div>
+<div class="card soft date-card">
+<div class="kicker-row">
+<span aria-hidden="true" class="date-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+<path d="M14 2v6h6"></path>
+<path d="M16 13H8"></path>
+<path d="M16 17H8"></path>
+<path d="M10 9H8"></path>
+</svg>
+</span>
+<div class="kicker">Submission deadline</div>
+</div>
+<div class="date">17 March 2026, 5:00pm</div>
+<div class="actions">
+<a class="btn secondary" href="submit.html">Submit</a>
+</div>
+</div>
+<div class="card soft date-card">
+<div class="kicker-row">
+<span aria-hidden="true" class="date-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 7h18s-3 0-3-7"></path>
+<path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+</svg>
+</span>
+<div class="kicker">Notification of decisions</div>
+</div>
+<div class="date">10 April 2026</div>
+<div class="actions">
+<a class="btn secondary" href="#committees">Scientific committee</a>
+</div>
+</div>
+<div class="card soft date-card">
+<div class="kicker-row">
+<span aria-hidden="true" class="date-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20 12l-8 8-10-10V2h8l10 10z"></path>
+<circle cx="7.5" cy="7.5" r="1.5"></circle>
+</svg>
+</span>
+<div class="kicker">Registration opens</div>
+</div>
+<div class="date">TBD</div>
+<div class="actions">
+<a aria-disabled="true" class="btn secondary disabled" data-disabled="true" href="register.html">Registration (TBD)</a>
+</div>
+</div>
+<div class="card soft date-card">
+<div class="kicker-row">
+<span aria-hidden="true" class="date-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<line x1="8" x2="21" y1="6" y2="6"></line>
+<line x1="8" x2="21" y1="12" y2="12"></line>
+<line x1="8" x2="21" y1="18" y2="18"></line>
+<circle cx="4" cy="6" r="1"></circle>
+<circle cx="4" cy="12" r="1"></circle>
+<circle cx="4" cy="18" r="1"></circle>
+</svg>
+</span>
+<div class="kicker">Preliminary program</div>
+</div>
+<div class="date">TBD</div>
+<div class="actions">
+<a aria-disabled="true" class="btn secondary disabled" data-disabled="true" href="program.html">Program (TBD)</a>
+</div>
+</div>
+<div class="card soft date-card">
+<div class="kicker-row">
+<span aria-hidden="true" class="date-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<rect height="18" rx="2" width="18" x="3" y="4"></rect>
+<line x1="16" x2="16" y1="2" y2="6"></line>
+<line x1="8" x2="8" y1="2" y2="6"></line>
+<line x1="3" x2="21" y1="10" y2="10"></line>
+</svg>
+</span>
+<div class="kicker">Workshop dates</div>
+</div>
+<div class="date">16–17 July 2026</div>
+<div class="actions">
+<a class="btn secondary" href="venue.html">Venue &amp; travel</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="about" class="section">
+<div class="container">
+<h2 id="about">About the workshop</h2>
+<div class="card">
+<p class="lead">The Labour Econometrics Workshop (LEW) is an annual meeting that brings together researchers working on labour economics and closely related applied topics, with an emphasis on rigorous empirical work and the application of econometric methods.</p>
+<p>Over more than two decades, LEW has developed into a leading workshop for labour economics in the Oceania region while remaining deliberately boutique: a single stream of presentations supported by high-quality discussants and ample time for discussion.</p>
+<p>  <br> LEW 2026 will be held in Perth, hosted by UWA Business School, on Thursday 16 and Friday 17 July 2026.</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="call-for-papers" class="section">
+<div class="container">
+<h2 id="call-for-papers">Call for papers</h2>
+<div class="card">
+<p class="lead">We are now inviting submissions to present at LEW 2026. Submissions in labour economics and applied economics more broadly are welcome. Please share this call with colleagues who may be interested in presenting, especially early-career researchers and PhD students.</p>
+<p><strong>How to submit:</strong> Please submit a full-length paper or an extended abstract (PDF or Word). Include your full name, position and affiliation(s), and list any co-authors (optional).</p>
+<p><strong>Key dates (AWST):</strong><br/>Call for papers opens: Monday 26 January 2026<br/>Submission deadline: 5.00pm, Tuesday 17 March 2026<br/>Notification of outcomes: Friday 10 April 2026</p>
+<p>All submissions will be peer reviewed. Authors of accepted papers will be asked to provide a complete, or close to complete, paper in advance of the workshop so it can be shared with the invited discussant.</p>
+<div class="hr"></div>
+<p><strong>Session format:</strong> The workshop runs as a single stream. Two papers are presented in each session, with one discussant per paper. Presentations are typically 20 minutes, followed by 10 minutes for the discussant and 10 minutes for audience questions (40 minutes per paper).</p>
+<div class="actions">
+<a class="btn primary" href="submit.html">Submit paper</a>
+<a class="btn secondary" href="submit1.html">Email submission</a>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="keynotes" class="section alt">
+<div class="container">
+<h2 id="keynotes">Keynote speakers</h2>
+<div class="grid two keynote-cards">
+<div class="card soft">
+<div class="speaker-card-head">
+<img alt="Muriel Niederle" class="speaker-photo" src="assets/img/muriel.jpg"/>
+<div class="speaker-card-meta">
+<div class="kicker">Keynote speaker</div>
+<h3 style="margin:6px 0 2px;"><a href="https://web.stanford.edu/~niederle/" rel="noopener" target="_blank">Muriel Niederle</a></h3>
+<p style="margin:0;">Stanford University</p>
+</div>
+</div>
+</div>
+<div class="card soft">
+<div class="speaker-card-head">
+<img alt="Orley Ashenfelter" class="speaker-photo" src="assets/img/orley.jpg"/>
+<div class="speaker-card-meta">
+<div class="kicker">Keynote speaker</div>
+<h3 style="margin:6px 0 2px;"><a href="https://irs.princeton.edu/people/orley-c-ashenfelter-emeritus" rel="noopener" target="_blank">Orley Ashenfelter</a></h3>
+<p style="margin:0;">Princeton University</p>
+</div>
+</div>
+</div>
+</div>
+<div class="keynote-cta">
+<a class="btn secondary" href="keynotes.html" style="font-size:1.05rem; padding:14px 20px;">Keynote speaker details</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="committees" class="section">
+<div class="container">
+<h2 id="committees">Committees</h2>
+<div class="grid two">
+<div class="card">
+<h3>Organising committee</h3>
+<ul class="clean-list">
+<li><div class="person"><strong>Simon Chang</strong><span>Associate Professor, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>Tushar Bharati</strong><span>Senior Lecturer, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>Ishita Chatterjee</strong><span>Senior Lecturer, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>Shawn Chen</strong><span>Senior Lecturer, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>Valeria Bodishtianu</strong><span>Lecturer, Department of Economics, UWA Business School</span></div></li>
+</ul>
+</div>
+<div class="card">
+<h3>Scientific committee</h3>
+<ul class="clean-list">
+<li><div class="person"><strong>TBD (UWA Economics)</strong><span>Member, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>TBD (UWA Economics)</strong><span>Member, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>TBD (UWA Economics)</strong><span>Member, Department of Economics, UWA Business School</span></div></li>
+<li><div class="person"><strong>TBD (UWA Economics)</strong><span>Member, Department of Economics, UWA Business School</span></div></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="sponsors" class="section alt">
+<div class="container">
+<h2 id="sponsors">Supported by</h2>
+<p class="lead">Sponsors to be confirmed.</p>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-grid">
+<div class="footer-left">
+<h3>LEW 2026</h3>
+<p class="small">Labour Econometrics Workshop · Perth, Australia · 16–17 July 2026</p>
+<p class="small">Hosted by UWA Business School.</p>
+<p class="small">Contact: <a href="mailto:lew2026@uwa.edu.au">lew2026@uwa.edu.au</a> <span style="opacity:.8">(placeholder)</span></p>
+</div>
+<div class="footer-right"><div class="footer-links"><a href="https://www.uwa.edu.au/schools/business-school">UWA Business School</a><a href="contact.html">Contact</a></div><div aria-label="UWA social media" class="social">
+<a aria-label="Facebook" href="https://www.facebook.com/universitywa" rel="noopener" target="_blank">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24H12.82v-9.294H9.692V11.08h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.311h3.587l-.467 3.626h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z" fill="#fff"></path></svg>
+</a>
+<a aria-label="Instagram" href="https://www.instagram.com/universitywa/" rel="noopener" target="_blank">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<rect fill="none" height="18" rx="5" ry="5" stroke="#fff" stroke-width="2" width="18" x="3" y="3"></rect>
+<circle cx="12" cy="12" fill="none" r="4" stroke="#fff" stroke-width="2"></circle>
+<circle cx="17.5" cy="6.5" fill="#fff" r="1"></circle>
+</svg>
+</a>
+<a aria-label="X" href="https://x.com/uwanews" rel="noopener" target="_blank">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<path d="M5 5l14 14M19 5L5 19" stroke="#fff" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+</a>
+<a aria-label="YouTube" href="https://www.youtube.com/user/universitywa" rel="noopener" target="_blank">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<rect fill="none" height="10" rx="3" stroke="#fff" stroke-width="2" width="18" x="3" y="7"></rect>
+<polygon fill="#fff" points="11,10 16,12 11,14"></polygon>
+</svg>
+</a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/school/university-of-western-australia/" rel="noopener" target="_blank">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<text fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="700" x="6" y="17">in</text>
+</svg>
+</a>
+</div></div>
+</div>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>
